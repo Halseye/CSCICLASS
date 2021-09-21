@@ -1,3 +1,5 @@
+// Cats>Learning for later 
+
 public class Playground {
     public static void main(String[] args) {
         // STRING PLAYGROUND
@@ -21,7 +23,17 @@ public class Playground {
         System.out.println(exclaimName);
 
         //System.out.println(newAddExclamationPoint(name));
+        // Create a friend object
+        Friend newFriend = new Friend();
+        //Call my friend name method 
+        String friendName = newFriend.myFriendName();
+        System.out.println(friendName);
 
+        // call validateFriend Method with the variable name
+        // name = Greg
+        String validateFriend = newFriend.validateFriend(name);
+        System.out.println(validateFriend);
+        System.out.println(newFriend.validateFriend("jake"));
 
     }
     // make a void method 
