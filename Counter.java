@@ -12,11 +12,11 @@ public class Counter {
     }
 
     public void click(){
-        value = value + 1;
+        value ++;
     }
 
     public void minusClick(){
-        value = value - 1;
+        value --;
     }
 
     public void reset() {
