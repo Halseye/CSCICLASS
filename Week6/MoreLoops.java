@@ -7,13 +7,33 @@ public class MoreLoops {
     // 0123456789
     // aprha
     // everyNth("Happy Birthday", 2) --Parameters
+
     public static String everyNth(String str, int n){
         String result = "";
 
         for(int i = 0; i<str.length(); i = i + n){
             System.out.println(i + "     " + str.charAt(i));
             result = result + str.charAt(i);
+            // EX. Greg Walsh -> str
+            // everyNth(str,n)
+            // everyNth("Greg Walsh",1)
+            // Greg Walsh
+            // 0123456789 -> index
+            // i=0
+            // n=1
+            // index 10 total
+            // 0<10
+            // 0 = 0 + 1 -> 1
+            // 1<10
+            // 1 = 1 + 1 -> 2
+            // 2<10
+            // 2 = 2 + 1 -> 3
+            // 3<10 
+            // 9<10
+            // 9 = 9 + 1 -> 10
+            // 10<10 NO
         }
+        System.out.println("hi");
         return result;
     }
 
@@ -72,10 +92,10 @@ public class MoreLoops {
 
 
     public static void main(String[] args) {
-        //System.out.println(everyNth("Happy Birthday", 1));
+        System.out.println(everyNth("Greg Walsh", 1));
         //System.out.println(countXX("HxxxappyBirthday"));
         // System.out.println(oneTwo("catdog"));
-        System.out.println(isPalindrome("camac"));
+        //System.out.println(isPalindrome("camac"));
     }
     
 }
