@@ -25,13 +25,18 @@ public class arrays {
         // System.out.println(anArray[9]);
         // another way to create an array if we know the values
         // before hand
+
+
         int[] shortArray = {
             0,1,200,3,4,5,6,7,8,9
         };
+        for(int i =0; i <shortArray.length; i++){
+            System.out.println(shortArray[i]);
+        }
         // For each loop in java with array
-        // for (int i : shortArray) {
-        //     System.out.println(i);  
-        // }
+        for (int i : shortArray) {
+            System.out.println(i);  
+        }
 
         String[] name = {"Appa","Momo","Jack"};
         // System.out.println(name[0]);
